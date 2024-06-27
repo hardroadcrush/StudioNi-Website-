@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .image {
+            flex: 1;
+            background: url('./01.png') center/cover no-repeat;
+            height: 400px;
+        }
+
+        h1,
+        p {
+            color: #333;
+        }
+
+        .additional-paragraph {
+            width: 100%;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="content">
+            <h1>Your Heading</h1>
+            <p>Your text goes here. Add as much content as you need.</p>
+        </div>
+        <div class="image"></div>
+    </div>
+
+    <div class="additional-paragraph">
+        <p>This is another paragraph below the entire row (text and image).</p>
+    </div>
+
+</body>
+
+</html>

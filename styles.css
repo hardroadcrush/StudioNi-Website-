@@ -1,0 +1,233 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #333
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Services section styles */
+.services {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.service-icon img {
+    max-width: 60px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* About Us section styles */
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .services {
+        padding: 60px 20px;
+    }
+
+    .about-us {
+        padding: 60px 20px;
+    }
+}
+
+#twit,
+#lin,
+#insta,
+#social,
+#love {
+    color: aqua;
+
+    transition: 1s ease-out;
+    text-decoration: none;
+}
+
+
+
+#insta:hover {
+    font-size: 1.3em;
+
+}
+
+#nav {
+
+    position: fixed;
+}
+
+/* #twit,
+#lin {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    margin-right: 12px;
+    margin-top: 0%;
+} */
+
+#twit:hover {
+    font-size: 2em;
+    color: greenyellow;
+}
+
+#lin:hover {
+    font-size: 2em;
+    color: greenyellow;
+}
+
+.fa-gmail {
+    content: url('assets/images/gmail.svg');
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-right: 12px;
+    margin-top: 0%;
+}

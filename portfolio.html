@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<head>
+    <title>portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Roboto&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body{
+        background-color: rgb(247, 246, 240);
+}
+
+
+
+ #navbar {
+        background-color: rgb(247, 246, 240);
+      }
+
+      #navbar a {
+        /* float: left; */
+        /* display:block; */
+/* justify-content: left; */
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+       
+      }
+
+ .sticky {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+      }
+
+   .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+      #n2 ,#n3 ,#n4, #n5{
+         font-family: 'Inria Serif', serif;
+         margin-left: 42px;
+/* text-transform:capitalize; */
+
+      }
+
+.fa-cog {
+  color: black;
+}
+      .navFonts{
+margin-left: 40px;
+align-items:end ;
+color: black;
+/* background-color: #d9d9d9; */
+      }
+
+#icon1{
+margin-left: 80px;
+}
+
+#n1 {
+  padding:0px 30px 0px 50px;
+  font-family: sans-serif;
+  font-size: 55px;
+  margin-left: 50px;
+  letter-spacing: 20px;
+}
+
+
+       #n2:hover {
+        text-decoration:underline;
+      }
+
+       #navbar #n3:hover {
+        text-decoration:underline;
+      }
+
+       #navbar #n4:hover {
+        text-decoration:underline;
+      }
+     
+/* 
+      .sticky + .content {
+        padding-top: 60px;
+      } */
+
+
+    .pack {
+      font-family: Arial, sans-serif;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+ 
+
+    .image {
+      flex: 1;
+      background: url("04.png");
+      height: 400px; /* Set a fixed height or adjust as needed */
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+   
+    .para{
+        /* position: absolute; */
+        object-fit: cover;
+          width: 100%;
+    height:670px;
+    }
+
+    .parallax {
+    /* position: absolute; */
+  margin-top: 50px;
+    /* height: 560px; */
+    top: 0px; 
+    left: 0;
+    /* object-fit: cover; */
+    /* The image used */
+    /* background-image: url("./WhatsApp\ Image\ 2023-08-31\ at\ 12.27.24\ PM.jpeg"); */
+    
+    /* Set a specific height */
+    min-height: 500px;
+    
+    /* Create the parallax scrolling effect */
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+   #quote{
+    font-size:70px;;
+    margin-left: 50px;
+   }
+
+   #nate{
+    margin-left: 88%;
+    font-size: larger;
+   }
+
+   #tel{
+    margin-left: 20%;
+   }
+
+#foot{
+height: 370px;
+}
+.con{
+    text-align:justify;
+margin: 50px 100px 40px 100px  ;
+font-size: medium;
+font-family: sans-serif;
+}
+.grid-container {
+  column-gap: 50px;
+  row-gap: 50px; 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px 10px 10px 140px;
+margin-bottom: 200px;
+margin-top: 50px;
+}
+.grid-item {
+  background-color: black(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 200px ;
+  height: 200px;
+  transition: all 0.2s ease-in-out;
+background-image:url("./07.png");
+}
+
+.grid-item: :hover{
+opacity: 0.5;
+
+}
+*{
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+    <div id="navbar" class="sticky" style="z-index: 9999">
+    
+        <a id="n1" class="active" href="#firstPart">STUDIO NI</a>
+        <a id="n2" href="#abt">ABOUT US</a>
+        <a id="n3" href="#port">PORTFOLIO</a>
+        <a id="n4" href="#latest1">LATEST</a>
+        <a id="n5" href="#sign">SIGN UP</a>
+        <a class="navFonts" href="#firstPart" id="icon1"><i class="fa fa-search fa-cog "></i></a>
+        <a class="navFonts" href="#firstPart"><i class="fa fa-home fa-cog" aria-hidden="true"></i></a>
+        <a class="navFonts" href="#firstPart"><i class="fa fa-shopping-bag fa-cog fa-2xs" aria-hidden="true"></i></a>
+    </div>
+
+<div class="grid-container">
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">1</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">2</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">3</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">4</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">5</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">6</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">7</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">8</div></a>
+ <a href="file:///C:/Users/Asus/Desktop/HTML/StudioNI%20Website/portfolioClick.html"> <div class="grid-item ">9</div></a>
+</div>
+
+
+
+
+    
+</div>
+</div>
+
+
+
+
+
+ <img id="foot" src="./Screenshot 2023-12-03 100202.png"></img>
+</body>
+</html>

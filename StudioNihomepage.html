@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a98c974f3f.js" crossorigin="anonymous"></script>
+    <title>Interior Design Studio</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav id="#nav" class="navbar">
+            <div class="logo">Interior Design Studio</div>
+            <ul class="nav-links">
+                <li><a href="#nav">Home</a></li>
+                <li><a href="https://www.instagram.com/studionidesigns/">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Interior Design Studio <i class="fa fa-home" style="font-size:60px;color:aqua;"></i>
+            </h1>
+            <p>We transform spaces into beautiful, functional environments.</p>
+            <a id="insta" href="https://www.instagram.com/studionidesigns/" class="btn">View Portfolio
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-card" id="service-card1">
+            <div class="service-icon"><img src="whitesofa.jpeg" alt="Service Icon"></div>
+            <h3>Residential Design</h3>
+            <p>Create your dream home with our expert residential design services.</p>
+        </div>
+        <div class="service-card" id="service-card2>
+            <div class=" service-icon"><img src="WhatsApp Image 2023-08-31 at 12.27.23 PM.jpeg" alt="Service Icon">
+        </div>
+        <h3>Commercial Design</h3>
+        <p>Elevate your business environment with our top-notch commercial design solutions.</p>
+        </div>
+        <div class="service-card" id="service-card3>
+            <div class=" service-icon"><img src="WhatsApp Image 2023-08-31 at 12.27.24 PM.jpeg" alt="Service Icon">
+        </div>
+        <h3>Interior Styling</h3>
+        <p>Enhance the aesthetic appeal of your space with our expert interior styling services.</p>
+        </div>
+    </section>
+
+    <section id="aboutUs" class="about-us">
+        <h2>About Us</h2>
+        <p>We are a passionate team of interior designers dedicated to creating stunning and functional spaces that
+            reflect our clients' vision and personality.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Interior Design Studio. All rights reserved.
+            <span>
+                <!-- gmail.svg
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24" width="64" height="64"
+                    class="social fa-gmail">
+                    <path
+                        d="M29.986 27.715H2.008C.915 27.715 0 26.85 0 25.733V6.376A2.01 2.01 0 0 1 2.008 4.37h27.978c1.093 0 2.008.9 2.008 2.008v19.33c-.025 1.144-.915 2.008-2.008 2.008z"
+                        fill="#f2f2f2" />
+                    <path d="M4 27.715l11.97-8.76.076-.508L3.7 9.578l-.025 17.705z" opacity=".1" fill="#221f1f" />
+                    <g fill="#00FFFF">
+                        <path
+                            d="M2.008 27.715C.9 27.715 0 26.85 0 25.733V6.35c0-1.118.9-1.32 2.008-1.32s2.008.23 2.008 1.32v21.364z" />
+                        <path
+                            d="M2.008 5.334c1.423 0 1.703.432 1.703 1.016v21.084H2.008c-.94 0-1.703-.762-1.703-1.703V6.35c-.025-.6.28-1.016 1.703-1.016zm0-.28C.9 5.055 0 5.283 0 6.35v19.356a1.98 1.98 0 0 0 2.008 2.008h2.008V6.35C4 5.258 3.126 5.055 2.008 5.055zm27.978.28c1.296 0 1.703.254 1.703.966v19.458c0 .94-.762 1.703-1.703 1.703h-1.703V6.3c-.025-.737.407-.966 1.703-.966zm0-.28c-1.118 0-2.008.152-2.008 1.245v21.44h2.008c1.118 0 2.008-.9 2.008-2.008V6.274c-.025-1.093-.915-1.22-2.008-1.22z" />
+                        <path
+                            d="M29.986 27.715h-2.008V6.3c0-1.118.9-1.245 2.008-1.245s2.008.152 2.008 1.245v19.458a2 2 0 0 1-2.008 1.957z" />
+                    </g>
+                    <path
+                        d="M21.422 27.715L.178 7.2l1.118.457 14.8 10.647L31.993 6.63v19.128a1.99 1.99 0 0 1-2.008 1.982z"
+                        opacity=".08" fill="00FFFF" />
+                    <g fill="00FFFF">
+                        <path
+                            d="M15.96 18.98L.864 8.028c-.9-.66-1.144-1.93-.483-2.82s1.93-1.093 2.846-.432l12.757 9.275L28.817 4.65c.9-.66 2.135-.457 2.795.457.66.9.457 2.135-.457 2.795z" />
+                        <path
+                            d="M29.986 4.572c.534 0 1.067.254 1.398.712.534.762.38 1.83-.38 2.4L15.96 18.625 1.042 7.8C.28 7.24.076 6.147.6 5.4c.305-.457.84-.737 1.423-.737.38 0 .737.102 1.016.33l12.73 9.25.178.102.178-.102 12.82-9.393c.33-.178.66-.28 1.042-.28zm0-.305c-.407 0-.84.102-1.17.38L15.984 14.05 3.202 4.75c-.33-.254-.762-.38-1.194-.38-.635.025-1.27.305-1.652.84-.635.9-.38 2.135.508 2.795L15.96 18.98 31.155 7.9a2.02 2.02 0 0 0 .457-2.795c-.407-.534-1.016-.84-1.626-.84z" />
+                    </g>
+                </svg> -->
+                <i class="fa-brands fa-twitter " id="twit"></i>
+                <!-- <i class="fa-brands fa-gmail social"></i> -->
+                <i class="fa-brands fa-linkedin " id="lin"></i>
+                <!--<span class="fab icon-gmail fa-sm"></span>--></span>
+        </p>
+    </footer>
+</body>
+
+</html>
